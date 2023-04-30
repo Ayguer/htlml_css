@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(45, 45, 45);
+    color: aliceblue;
+    text-align: center;
+}
+
+.links {
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 2px rgb(53, 53, 255);
+
+}
+
+a {
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}

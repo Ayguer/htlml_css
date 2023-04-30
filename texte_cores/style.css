@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    height: 96vh;
+
+    background-image: linear-gradient(45deg, white, black);
+    padding: 5px;
+    text-align: center;
+}
+main{
+    width: 300px;
+    margin: auto;
+    box-shadow: 10px 5px 15px black ;
+    padding: 10px;
+}
