@@ -44,7 +44,8 @@ main>p>a::after,aside>p>a::after{
 }
 header{
     width: 100vw;
-    background-image: linear-gradient(to top, var(--cor3), var(--cor2));
+    background-image:url("Imagem\ WhatsApp\ 2023-05-04\ às\ 18.44.02.jpg");
+    background-size: contain;
     height: 200px;
     text-align: center;
     font-size: 1em;
