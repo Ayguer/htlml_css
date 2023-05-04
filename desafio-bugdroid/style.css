@@ -3,9 +3,9 @@
     src: url("fontes/idroid.otf");
 }
 :root{
-    --cor1:#84e1ad;
-    --cor2:#3cd681;
-    --cor3:#185132;
+    --cor1:#dce184;
+    --cor2:#d1d63c;
+    --cor3:#515118;
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -63,7 +63,7 @@ header>p{
 }
 nav{
     
-    background-color: #185132;
+    background-color: var(--cor3);
     padding: 15px; 
 }
 nav>a{
@@ -124,7 +124,7 @@ img{
 div.vidio{
 
     position: relative;
-    background-color: #185132;
+    background-color: var(--cor3);
     
     margin: 0 -10px;
     padding: 30%;
