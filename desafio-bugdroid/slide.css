@@ -12,7 +12,7 @@ header{
     position:absolute;
 height:200px;
 max-width: 810px;
-    min-width: 350px;
+    min-width: 310px;
 
 overflow: hidden;
 
@@ -40,7 +40,7 @@ label:hover{
 }
 .box{
     max-width: 810px;
-    min-width: 350px;
+    min-width: 310px;
    
     height: 200px;
     
