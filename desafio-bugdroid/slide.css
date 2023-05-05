@@ -1,0 +1,23 @@
+header{
+    width: 97.2vw;
+    position: absolute;
+    overflow: hidden;
+    
+    
+}
+.barra{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+
+}
+label{
+    height: 20px;
+    width: 50px;
+    background-color: aliceblue;
+}
+input{
+    display: none;
+}
