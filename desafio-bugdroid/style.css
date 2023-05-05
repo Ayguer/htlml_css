@@ -42,15 +42,7 @@ main>p>a{
 main>p>a::after,aside>p>a::after{
     content: '\1F517';
 }
-header{
-    width: 100vw;
-   
-    height: 200px;
-    text-align: center;
-    font-size: 1em;
-    color: aliceblue;
 
-}
 header>h1{
     background-image: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -1,9 +1,17 @@
 header{
-    width: 97.2vw;
-    position: absolute;
-    overflow: hidden;
-    
-    
+    width: 100vw;
+   
+    height: 20%;
+    text-align: center;
+    font-size: 1em;
+    color: aliceblue;
+
+}
+.absolute{
+overflow: hidden;
+height: 20%;
+width: 100%;
+position:absolute;
 }
 .barra{
     position: absolute;
