@@ -1,0 +1,69 @@
+.slide{
+    position: absolute;
+    height: 350px;
+    width: 50%;
+  margin: 0;
+ 
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.barra{
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+     transform: translate(-50%,-50%); 
+
+}
+.imagens:hover>.barra{
+    display: block;
+
+     
+}
+#l1{
+    
+    
+    margin-left: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    
+    transition: 0.5s;
+}
+#l1>img{
+    height: 10px;
+    width: 30px;
+}
+label:hover{
+    background-color: aliceblue;
+}
+input{
+    display: none;
+}
+.imagens{
+    display:flex;
+    width:400%;
+    height: 100%;
+}
+.image{
+    width: 25%;
+    transition: 0.6s;
+}
+.image>img{
+    width: 100%;
+    height: 100%;
+
+}
+#radio1:checked~.s1{
+    margin-left: 0;
+
+}
+#radio2:checked~.s1{
+    margin-left: -25%;
+}
+#radio3:checked~.s1{
+    margin-left: -50%;
+}
+#radio4:checked~.s1{
+    margin-left: -75%;
+}
