@@ -23,16 +23,19 @@
 }
 #l1{
     
-    
+    background-image: url(seta1.png);
     margin-left: 20px;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 3px;
-    
+    background-attachment: fixed;
+    background-size: auto;
+    width: 50px;
+    height: 50px;
     transition: 0.5s;
 }
-#l1>img{
-    height: 10px;
-    width: 30px;
+#l2{
+    
+
 }
 label:hover{
     background-color: aliceblue;
